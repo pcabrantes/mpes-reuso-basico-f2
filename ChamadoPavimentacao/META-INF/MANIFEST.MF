@@ -4,4 +4,6 @@ Bundle-Name: ChamadoPavimentacao
 Bundle-SymbolicName: ChamadoPavimentacao
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Import-Package: servico
+Import-Package: chamado,
+ servico
+Service-Component: component.xml

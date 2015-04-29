@@ -21,8 +21,8 @@ public class Activator implements BundleActivator {
 		HttpService http = context.getService(sr);
 		
 		if (http != null) {
-			http.registerServlet("/mapachamado", new MapaChamadoServlet(), null, null);
-			System.out.println("Servlet registrado");
+			http.registerServlet("/chamados/mapa", new MapaChamadoServlet(), null, null);
+			System.out.println("Servlet Mapa registrado");
 		}
 	}
 
